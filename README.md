@@ -1,2 +1,1 @@
-# internal-dashboards
-Dashboards for displaying information within Valimail
+Check out http://smashing.github.io/smashing for more information.

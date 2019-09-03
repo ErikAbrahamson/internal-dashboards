@@ -1,0 +1,12 @@
+dashing:
+  image: frvi/dashing
+  volumes:
+    - ./dashboards:/dashboards
+    - ./jobs:/jobs
+    - ./assets:/assets
+    - ./widgets:/widgets
+    - ./config:/config
+  ports:
+    - "8080:3030"
+  env_file:
+    - dashboard.env
